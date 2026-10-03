@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "contacts-manager",
-    "slug": "contacts-manager",
+    "slug": "contact-manager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,6 +19,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "966ed978-28bf-4907-92ac-2919901233f4"
+      }
+    },
+    "owner": "beannies-team"
   }
 }
